@@ -15,14 +15,13 @@ public class TwoRangesSum {
             }
             sum1 = sum1 + i;
             if (i == numberToSkip) {
-                sum1 = sum1 - i;
-                System.out.println("skipped sum is number " + sum1);
+                System.out.println("skipped sum is " + sum1);
             }
             if (i > numberToSkip) {
                 sum2 = sum2 + i;
             }
             if (i == lastInRow) {
-                System.out.println("counted sum is number " + sum2);
+                System.out.println("counted sum is " + sum2);
             }
         }
     }
